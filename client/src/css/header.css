@@ -1,0 +1,48 @@
+.okvir{
+    
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    background-color: blanchedalmond;
+}
+.naslov{
+    font-size: 4em;
+    margin-left: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1%;
+}
+.mesto{
+    margin-left: 10%;
+}
+.grad{
+    font-size: 2.5em;
+    margin-right: 29%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.ulica{
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.datumi{
+    margin-left: 10%;
+    margin-top: 0.5%;
+}
+.d1{
+    font-size: 2.5em;
+    margin-right: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.d2{
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-pregled button{
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 30%;
+    background-color: blanchedalmond;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}

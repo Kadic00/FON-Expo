@@ -1,0 +1,62 @@
+.pregled {
+    width: 25em;
+    height: 60em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+  .pregled p {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    width: 70%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+    font-size: 1em;
+    margin-bottom: 1%;
+  }
+  .hidden {
+    display: none;
+  }
+
+  p button{
+    margin-left: 40%;
+  }
+
+  p.crveno{
+    background-color: red;
+  }
+  p.zeleno{
+    background-color: green;
+  }
+  .selectBtn{
+    margin-left: 60%;
+    margin-top:5%;
+  }
+  p button{
+    font-style: italic;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    cursor: pointer;
+  }
+  select option{
+    font-style: italic;
+    font-weight: bold;
+    background-color: blanchedalmond;
+  }
+  select{
+    font-style: italic;
+    font-weight: bold;
+    background-color: blanchedalmond;
+  }
+  select option:hover{
+    background-color: black;
+    color: blanchedalmond;
+  }

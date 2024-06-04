@@ -1,0 +1,141 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: peto; }
+.item6{grid-area: dgri;}
+
+
+.grid1 {
+  display: grid;
+  grid-template-areas:
+    'menu header peto right'
+    'menu header peto right'
+    'menu main peto right'
+    'menu main dgri right';
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin:5% 7%;
+  grid-column-gap: 5px;
+  
+}
+
+.grid1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  
+
+}
+.item1{
+    margin-top: 8%;
+}
+.item2 img {
+    width: 100%;
+    height: 500px;
+    margin-right: 20%;
+  }
+  .item3 img {
+    width: 100%;
+    height: 350px;
+    margin-top: 7%;
+    margin-right:35%;
+    
+  }
+  .item4 img {
+    width: 100%;
+    height: 500px;
+  }
+  .item5 img {
+    width: 100%;
+    height: 420px;
+    margin-right: 20%;
+  }
+  .aprsub{
+    font-style: italic;
+    font-size: 1.5em;
+  }
+  .nazSlik{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+  }
+  .item6{
+    display:flex;
+    margin-left: 15%;
+  }
+  .dostupno{
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  .dugRez1{
+    margin-left: 5%;
+  }
+  .dug1{
+    height: 40px;
+    background-color: blanchedalmond;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .item2{
+    position: relative;
+    overflow: hidden;
+  }
+  .item3{
+    position: relative;
+    overflow: hidden;
+  }
+  .item4{
+    position: relative;
+    overflow: hidden;
+  }
+  .item5{
+    position: relative;
+    overflow: hidden;
+  }
+  .tekst-overlay {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  }
+  
+  .item2:hover img {
+    opacity: 0.4; 
+  }
+  
+  .item2:hover .tekst-overlay {
+    opacity: 1; 
+  }
+  
+  .tekst-overlay p {
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    
+  }
+  .item3:hover img {
+    opacity: 0.4; 
+  }
+  
+  .item3:hover .tekst-overlay {
+    opacity: 1; 
+  }
+  .item4:hover img {
+    opacity: 0.4; 
+  }
+  
+  .item4:hover .tekst-overlay {
+    opacity: 1; 
+  }
+  .item5:hover img {
+    opacity: 0.4; 
+  }
+  
+  .item5:hover .tekst-overlay {
+    opacity: 1; 
+  }

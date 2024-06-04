@@ -1,0 +1,104 @@
+.i2 { grid-area: prva; }
+.i3 { grid-area: druga; }
+.i4 { grid-area: treca; }
+.i1 { grid-area: naslov; }
+.i5{ grid-area: cetvrta;}
+.i7 { grid-area: rez; }
+.grid2 {
+    display: grid;
+    grid-template-areas:
+      'prva prva treca treca'
+      'prva prva treca treca'
+      'cetvrta druga druga naslov'
+      'cetvrta druga druga rez';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:2% 7%;
+    grid-column-gap: 5px;
+    
+    
+  }
+  .i2{
+    position: relative;
+    overflow: hidden;
+  }
+  .i3{
+    position: relative;
+    overflow: hidden;
+  }
+  .i4{
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
+  .i2 img {
+    width: 100%;
+    height: 400px;
+  }
+  .i3 img {
+    width: 90%;
+    height: 350px;
+  }
+  .i4 img {
+    width: 100%;
+    height: 400px;
+  }
+  .i5 img {
+    width: 110%;
+    height: 350px;
+  }
+  
+  .aprned{
+    font-style: italic;
+    font-size: 1.5em;
+  }
+  .nazFoto{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+  }
+  .i1{
+    margin-top: 20%;
+    height: 100px;
+  }
+  .i7{
+    display:flex;
+    height: 100px;
+    margin-left: 15%;
+    margin-top: 2%;
+    
+  }
+  .tekst-overlay {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  }
+  
+  .i2:hover img {
+    opacity: 0.4; 
+  }
+  
+  .i2:hover .tekst-overlay {
+    opacity: 1; 
+  }
+  
+
+  .i3:hover img {
+    opacity: 0.4; 
+  }
+  
+  .i3:hover .tekst-overlay {
+    opacity: 1; 
+  }
+  .i4:hover img {
+    opacity: 0.4; 
+  }
+  
+  .i4:hover .tekst-overlay {
+    opacity: 1; 
+  }
